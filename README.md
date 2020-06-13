@@ -1,5 +1,5 @@
 # Sequencing Estimator
-## Rhett M. Rautsaw
+**Creator: Rhett M. Rautsaw**
 
 This Shiny application is designed to help you choose the right sequencing platform and estimate costs.
 
@@ -18,4 +18,34 @@ The recommended number of reads and coverage for each type of sequencing are def
 
 ## Running the Application
 
+There are many ways to download and run it:
 
+```R
+library(shiny)
+
+# Easiest way is to use runGitHub
+runGitHub("SequencingEstimator", "reptilerhett")
+
+# Run a tar or zip file directly
+runUrl("https://github.com/reptilerhett/SequencingEstimator/archive/master.tar.gz")
+runUrl("https://github.com/reptilerhett/SequencingEstimator/archive/master.zip")
+```
+
+Or you can clone the git repository, then use `runApp()`:
+
+```R
+# First clone the repository with git. If you have cloned it into
+# ~/SequencingEstimator, first go to that directory, then use runApp().
+setwd("~/SequencingEstimator")
+runApp()
+```
+
+
+To run a Shiny app from a subdirectory in the repo or zip file, you can use the `subdir` argument. This repository happens to contain another copy of the app in `inst/shinyapp/`.
+
+```R
+runGitHub("SequencingEstimator", "reptilerhett", subdir = "inst/shinyapp/")
+
+runUrl("https://github.com/reptilerhett/SequencingEstimator/archive/master.tar.gz",
+  subdir = "inst/shinyapp/")
+```
