@@ -1,7 +1,7 @@
 # Sequencing Estimator
 **Creator: Rhett M. Rautsaw**
 
-[https://reptilerhett.shinyapps.io/SequencingEstimator/](https://reptilerhett.shinyapps.io/SequencingEstimator/)
+[https://reptilerhett.app/shiny/SequencingEstimator/](https://reptilerhett.app/shiny/SequencingEstimator/)
 
 This Shiny application is designed to help you choose the right sequencing platform and estimate costs.
 
@@ -23,9 +23,9 @@ The recommended number of reads and coverage for each type of sequencing are def
 There are many ways to download and run it. 
 
 It is hosted freely at shinyapps.io: 
-[https://reptilerhett.shinyapps.io/SequencingEstimator/](https://reptilerhett.shinyapps.io/SequencingEstimator/)
+[https://reptilerhett.app/shiny/SequencingEstimator/](https://reptilerhett.app/shiny/SequencingEstimator/)
 
-However, it has limited usage hours per month because I'm a grad student and very cheap. So the easier way to run the app is probably through R:
+This app can also be run through R:
 
 ```R
 library(shiny)
