@@ -1,7 +1,7 @@
 # Sequencing Estimator
 <img align="right" src="www/SequencingEstimator.png" width=150>
 
-## Creator: Rhett M. Rautsaw
+## Rhett M. Rautsaw
 
 [https://reptilerhett.app/shiny/SequencingEstimator/](https://reptilerhett.app/shiny/SequencingEstimator/)
 
