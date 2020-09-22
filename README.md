@@ -24,7 +24,7 @@ The recommended number of reads and coverage for each type of sequencing are def
 
 There are many ways to download and run it. 
 
-It is hosted freely at shinyapps.io: 
+It is hosted freely on my Digital Ocean Droplet: 
 [https://reptilerhett.app/shiny/SequencingEstimator/](https://reptilerhett.app/shiny/SequencingEstimator/)
 
 This app can also be run through R:
