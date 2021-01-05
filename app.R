@@ -66,7 +66,7 @@ ui <- fluidPage(
          img(src = "SequencingEstimator.png", height = 250, width = 240, style="float:right"),
          titlePanel("Sequencing Estimator"),
          h4("Rhett M. Rautsaw"),
-         h5(a(href="https://github.com/reptilerhett/SequencingEstimator","github.com/reptilerhett/SequencingEstimator")),
+         h5(a(href="https://github.com/RhettRautsaw/SequencingEstimator","github.com/RhettRautsaw/SequencingEstimator")),
          helpText("This application is designed to help you choose the right sequencing platform and estimate costs."),
          helpText("The app currently provides space for Whole-Genome Sequencing (WGS), RNA-seq, Whole-Genome Bisulfite Sequencing (WGBS), ATAC-Seq, and ddRAD-Seq. However, given desired coverage or number of reads (in million), the fields could be used any type of sequencing."), 
          helpText("Most information was obtained from:",tags$a(href="https://www.illumina.com/systems/sequencing-platforms.html", "Illumina")),

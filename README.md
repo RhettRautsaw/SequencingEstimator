@@ -3,7 +3,7 @@
 
 ## Rhett M. Rautsaw
 
-[https://reptilerhett.app/shiny/SequencingEstimator/](https://reptilerhett.app/shiny/SequencingEstimator/)
+[https://RhettRautsaw.app/shiny/SequencingEstimator/](https://RhettRautsaw.app/shiny/SequencingEstimator/)
 
 This Shiny application is designed to help you choose the right sequencing platform and estimate costs.
 
@@ -25,7 +25,7 @@ The recommended number of reads and coverage for each type of sequencing are def
 There are many ways to download and run it. 
 
 It is hosted freely on my Digital Ocean Droplet: 
-[https://reptilerhett.app/shiny/SequencingEstimator/](https://reptilerhett.app/shiny/SequencingEstimator/)
+[https://RhettRautsaw.app/shiny/SequencingEstimator/](https://RhettRautsaw.app/shiny/SequencingEstimator/)
 
 This app can also be run through R:
 
@@ -33,11 +33,11 @@ This app can also be run through R:
 library(shiny)
 
 # Easiest way is to use runGitHub
-runGitHub("SequencingEstimator", "reptilerhett")
+runGitHub("SequencingEstimator", "RhettRautsaw")
 
 # Run a tar or zip file directly
-runUrl("https://github.com/reptilerhett/SequencingEstimator/archive/master.tar.gz")
-runUrl("https://github.com/reptilerhett/SequencingEstimator/archive/master.zip")
+runUrl("https://github.com/RhettRautsaw/SequencingEstimator/archive/master.tar.gz")
+runUrl("https://github.com/RhettRautsaw/SequencingEstimator/archive/master.zip")
 ```
 
 Or you can clone the git repository, then use `runApp()`:
@@ -53,8 +53,8 @@ runApp()
 To run a Shiny app from a subdirectory in the repo or zip file, you can use the `subdir` argument. This repository happens to contain another copy of the app in `inst/shinyapp/`.
 
 ```R
-runGitHub("SequencingEstimator", "reptilerhett", subdir = "inst/shinyapp/")
+runGitHub("SequencingEstimator", "RhettRautsaw", subdir = "inst/shinyapp/")
 
-runUrl("https://github.com/reptilerhett/SequencingEstimator/archive/master.tar.gz",
+runUrl("https://github.com/RhettRautsaw/SequencingEstimator/archive/master.tar.gz",
   subdir = "inst/shinyapp/")
 ```
