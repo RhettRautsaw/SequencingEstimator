@@ -1,19 +1,19 @@
 ﻿sequencer,num_lanes,paired,length,read_length,min_output_Gbp,max_output_Gbp,cost
-Illumina iSeq 100,1,1,36,1 x 36,0.144,0.144,
-Illumina iSeq 100,1,1,50,1 x 50,0.2,0.2,
-Illumina iSeq 100,1,1,75,1 x 75,0.3,0.3,
-Illumina iSeq 100,1,2,75,2 x 75,0.6,0.6,
-Illumina iSeq 100,1,2,150,2 x 150,1.2,1.2,
-Illumina MiniSeq High-Output Kit,1,2,150,2 x 150,6.6,7.5,
-Illumina MiniSeq High-Output Kit,1,2,75,2 x 75,3.3,3.75,
-Illumina MiniSeq High-Output Kit,1,1,75,1 x 75,1.65,1.875,
-Illumina MiniSeq Mid-Output Kit,1,2,150,2 x 150,2.1,2.4,
-Illumina MiSeq Reagent Kit v2,1,1,36,1 x 36,0.54,0.61,
-Illumina MiSeq Reagent Kit v2,1,2,25,2 x 25,0.75,0.85,
-Illumina MiSeq Reagent Kit v2,1,2,150,2 x 150,4.5,5.1,
-Illumina MiSeq Reagent Kit v2,1,2,250,2 x 250,7.5,8.5,
-Illumina MiSeq Reagent Kit v3,1,2,75,2 x 75,3.3,3.8,
-Illumina MiSeq Reagent Kit v3,1,2,300,2 x 300,13.2,15,
+Illumina iSeq 100,1,1,36,1 x 36,0.144,0.144,644
+Illumina iSeq 100,1,1,50,1 x 50,0.2,0.2,644
+Illumina iSeq 100,1,1,75,1 x 75,0.3,0.3,644
+Illumina iSeq 100,1,2,75,2 x 75,0.6,0.6,644
+Illumina iSeq 100,1,2,150,2 x 150,1.2,1.2,644
+Illumina MiniSeq High-Output Kit,1,2,150,2 x 150,6.6,7.5,2012
+Illumina MiniSeq High-Output Kit,1,2,75,2 x 75,3.3,3.75,2012
+Illumina MiniSeq High-Output Kit,1,1,75,1 x 75,1.65,1.875,2012
+Illumina MiniSeq Mid-Output Kit,1,2,150,2 x 150,2.1,2.4,717
+Illumina MiSeq Reagent Kit v2,1,1,36,1 x 36,0.54,0.61,1359
+Illumina MiSeq Reagent Kit v2,1,2,25,2 x 25,0.75,0.85,1359
+Illumina MiSeq Reagent Kit v2,1,2,150,2 x 150,4.5,5.1,1359
+Illumina MiSeq Reagent Kit v2,1,2,250,2 x 250,7.5,8.5,1359
+Illumina MiSeq Reagent Kit v3,1,2,75,2 x 75,3.3,3.8,2000
+Illumina MiSeq Reagent Kit v3,1,2,300,2 x 300,13.2,15,2000
 Illumina NextSeq 550 High-Output Kit,1,2,150,2 x 150,100,120,3000
 Illumina NextSeq 550 High-Output Kit,1,2,75,2 x 75,50,60,3000
 Illumina NextSeq 550 High-Output Kit,1,1,75,1 x 75,25,30,3000

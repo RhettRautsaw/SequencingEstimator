@@ -8,7 +8,7 @@ library(htmltools)
 
 # LOAD DATA
 #https://www.illumina.com/systems/sequencing-platforms.html
-sequencers <- read.csv("data/sequencers.csv")
+sequencers <- read.csv("data/sequencers.csv") %>% mutate(read_length = as.factor(read_length))
 sequencers2 <- sequencers %>% gather("min_max","output_Gbp",c("min_output_Gbp","max_output_Gbp")) %>%
   mutate(min_max = gsub("_output_Gbp", "", min_max)) %>%
   mutate(output_bp=output_Gbp*(10^9)) %>% 
@@ -77,7 +77,7 @@ ui <- fluidPage(
            # Input: Genome Size
            numericInput(inputId = "genome_size",
                         label = "Genome Size (Gb):",
-                        value = 1.6),
+                        value = 3.0),
             helpText("Not required for RNA-Seq, ATAC-Seq, ddRAD-Seq, or any sequencing type based on 
                      sequencing a specific number or reads rather than coverage."),
            hr(),
